@@ -28,6 +28,11 @@
             }
         }
 
+        /// <summary>
+        /// Read text file from disk
+        /// </summary>
+        /// <param name="path">Path to file</param>
+        /// <returns>True if succeed</returns>
         public bool Read(string path)
         {
             try
