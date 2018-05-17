@@ -4,7 +4,7 @@
 
     interface IFile
     {
-        bool Read(string sciezka);
+        bool Read(string path);
         BindingList<string> Find(string keyword);
 
         string Body { get; }

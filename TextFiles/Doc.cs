@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TextSearch.TextFiles
+﻿namespace TextSearch.TextFiles
 {
+    using System;
+    using System.ComponentModel;
+
     class Doc : IFile
     {
         public Doc()

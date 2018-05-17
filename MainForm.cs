@@ -53,9 +53,9 @@
                 return;
             }
 
-            this.openFileDialog = new OpenFileDialog();
-            this.openFileDialog.Multiselect = false;
-            this.openFileDialog.Filter = SupportedFileTypes();
+            openFileDialog = new OpenFileDialog();
+            openFileDialog.Multiselect = false;
+            openFileDialog.Filter = SupportedFileTypes();
         }
 
         /// <summary>
@@ -95,8 +95,8 @@
                     break;
             }
 
-            this.textBodyTextBox.Text = file.Body;
-            this.documentNameLabel.Text = "Nazwa dokumentu: " + Path.GetFileName(path);
+            textBodyTextBox.Text = file.Body;
+            documentNameLabel.Text = "Nazwa dokumentu: " + Path.GetFileName(path);
         }
     }
 }
